@@ -1,0 +1,461 @@
+{
+    "meta": {
+        "title": "Michel Viana — Analista de Testes Sênior | Testes AI-First",
+        "description": "Analista de Testes Sênior com 13+ anos de experiência e mindset AI-First. Especialista em Robot Framework, Cypress e Engenharia de Prompts para QA."
+    },
+    "nav": {
+        "about": "Sobre",
+        "skills": "Skills",
+        "experience": "Experiência",
+        "education": "Formação",
+        "blog": "Blog",
+        "contact": "Contato"
+    },
+    "hero": {
+        "greeting": "Olá, eu sou",
+        "name": "Michel Viana",
+        "role": "Analista de Testes Sênior",
+        "typingPhrases": [
+            "QA Engineer AI-First",
+            "13 Anos de Precisão",
+            "Robot Framework • Cypress",
+            "Engenharia de Prompts para QA"
+        ],
+        "cta": "Entre em contato",
+        "scrollHint": "Role para explorar",
+        "stats": {
+            "years": "13+",
+            "yearsLabel": "Anos de Experiência",
+            "companies": "8+",
+            "companiesLabel": "Empresas",
+            "industries": "5+",
+            "industriesLabel": "Indústrias"
+        }
+    },
+    "about": {
+        "sectionTag": "Sobre Mim",
+        "title": "Qualidade Impulsionada por IA",
+        "description": "QA Sênior com mais de 13 anos de experiência e um Mindset AI-First, atuando estrategicamente em Projetos Greenfield e Turnaround de Sistemas Críticos. Especialista em alavancar LLMs para arquitetar soluções de teste antes da codificação, utilizando GitHub Copilot para maximizar a velocidade e cobertura em Robot Framework e Cypress.",
+        "highlights": [
+            {
+                "label": "Mindset AI-First",
+                "description": "Uso de LLMs e GitHub Copilot para arquitetar soluções de teste antes da implementação"
+            },
+            {
+                "label": "Especialista Greenfield",
+                "description": "Construção de frameworks de qualidade do zero para projetos novos e complexos"
+            },
+            {
+                "label": "Especialista em Turnaround",
+                "description": "Destravamento de sistemas críticos estagnados e condução ao Go-Live produtivo"
+            },
+            {
+                "label": "Ponto Focal Técnico",
+                "description": "Ponte entre times de desenvolvimento e stakeholders em grandes empresas"
+            }
+        ]
+    },
+    "whoAmI": {
+        "sectionTag": "Quem Sou Eu",
+        "title": "Além do Código",
+        "description": "Quando não estou arquitetando estratégias de teste ou criando prompts para IA, você me encontra explorando novas tecnologias, compartilhando conhecimento com a comunidade de QA e empurrando constantemente os limites do que é possível em qualidade de software.",
+        "quote": "Qualidade nunca é um acidente. É sempre o resultado de um esforço inteligente.",
+        "interestsLabel": "Fora do terminal",
+        "interest0Title": "Música & Guitarra",
+        "interest0Text": "[Placeholder — sua paixão por música aqui]",
+        "interest1Title": "Livros & Aprendizado",
+        "interest1Text": "[Placeholder — livros, podcasts ou hábitos de aprendizado aqui]",
+        "interest2Title": "Viagens & Cultura",
+        "interest2Text": "[Placeholder — experiências de viagem ou interesses culturais aqui]",
+        "interest3Title": "Games & Estratégia",
+        "interest3Text": "[Placeholder — jogos ou interesses estratégicos aqui]"
+    },
+    "builtWith": {
+        "sectionTag": "Engenharia de Prompts",
+        "title": "Construído com IA",
+        "description": "Este portfólio é uma prova de conceito viva. Cada seção foi projetada, escrita e codificada por meio de uma orquestração multi-agente estruturada — documentando como as habilidades de Engenharia de Prompts se traduzem em saída de engenharia real."
+    },
+    "projects": {
+        "sectionTag": "Cases",
+        "title": "Projetos",
+        "subtitle": "Desafios reais. Pensamento estruturado. Resultados mensuráveis. Os cases estão sendo decodificados e serão publicados em breve.",
+        "wipLabel": "Em Construção",
+        "decodingLabel": "Decodificando Case...",
+        "challengeLabel": "Desafio",
+        "approachLabel": "Abordagem",
+        "resultLabel": "Resultado",
+        "placeholder": "Case em processo de decodificação — em breve.",
+        "items": [
+            {
+                "title": "Turnaround de Plataforma de Energia Legada",
+                "challenge": "Sistema de faturamento de energia crítico estagnado há 5 anos. Oracle DB, 200+ regras de negócio, sem cobertura de testes.",
+                "approach": "Definiu arquitetura de teste E2E do zero. Liderou sessões de homologação com stakeholders C-level.",
+                "result": "Pronto para produção em 6 meses. 100% de cobertura das regras de negócio. Zero regressões críticas pós go-live.",
+                "stack": [
+                    "Robot Framework",
+                    "Oracle SQL",
+                    "Azure DevOps",
+                    "BDD"
+                ]
+            },
+            {
+                "title": "BDD Acelerado por IA — Agro Report",
+                "challenge": "Plataforma agrícola Greenfield sem infraestrutura de testes e prazo apertado de entrega.",
+                "approach": "Criou framework BDD completo do zero. Usou GitHub Copilot para acelerar escrita de cenários 3×.",
+                "result": "100% de cobertura BDD no lançamento. Contratos de API validados via Bruno/Postman. 0 escapes de regressão.",
+                "stack": [
+                    "Robot Framework",
+                    "GitHub Copilot",
+                    "Postman",
+                    "Python"
+                ]
+            },
+            {
+                "title": "Automação Fiscal NFSE — TOTVS ERP",
+                "challenge": "O maior ERP do Brasil precisava de validação automatizada de notas fiscais em cenários multi-regra complexos.",
+                "approach": "Construiu suite de automação de API + camada de validação MongoDB cobrindo ciclo NFS-e completo.",
+                "result": "Zero escapes de conformidade. Ciclo de vida completo de notas coberto. Integridade fiscal garantida em escala.",
+                "stack": [
+                    "Python",
+                    "REST API",
+                    "MongoDB",
+                    "Pytest"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "sectionTag": "Competências Técnicas",
+        "title": "O Arsenal",
+        "categories": [
+            {
+                "name": "Automação & IA",
+                "icon": "robot",
+                "items": [
+                    {
+                        "name": "Robot Framework",
+                        "level": 95
+                    },
+                    {
+                        "name": "Cypress",
+                        "level": 90
+                    },
+                    {
+                        "name": "Selenium WebDriver",
+                        "level": 90
+                    },
+                    {
+                        "name": "GitHub Copilot",
+                        "level": 85
+                    },
+                    {
+                        "name": "Engenharia de Prompts",
+                        "level": 85
+                    },
+                    {
+                        "name": "Python",
+                        "level": 80
+                    },
+                    {
+                        "name": "BDD / Gherkin",
+                        "level": 90
+                    }
+                ]
+            },
+            {
+                "name": "API & Integração",
+                "icon": "api",
+                "items": [
+                    {
+                        "name": "Testes de API RESTful",
+                        "level": 90
+                    },
+                    {
+                        "name": "Bruno",
+                        "level": 85
+                    },
+                    {
+                        "name": "Postman",
+                        "level": 90
+                    },
+                    {
+                        "name": "SoapUI",
+                        "level": 80
+                    },
+                    {
+                        "name": "Validação de Contratos",
+                        "level": 85
+                    }
+                ]
+            },
+            {
+                "name": "DevOps & CI/CD",
+                "icon": "pipeline",
+                "items": [
+                    {
+                        "name": "Azure DevOps",
+                        "level": 90
+                    },
+                    {
+                        "name": "Jenkins",
+                        "level": 85
+                    },
+                    {
+                        "name": "GitHub Actions",
+                        "level": 80
+                    },
+                    {
+                        "name": "Gestão de Pipeline",
+                        "level": 85
+                    }
+                ]
+            },
+            {
+                "name": "Gestão de Qualidade",
+                "icon": "checklist",
+                "items": [
+                    {
+                        "name": "Jira",
+                        "level": 95
+                    },
+                    {
+                        "name": "Zephyr Scale",
+                        "level": 90
+                    },
+                    {
+                        "name": "Trello",
+                        "level": 85
+                    },
+                    {
+                        "name": "Scrum / Kanban",
+                        "level": 90
+                    }
+                ]
+            },
+            {
+                "name": "Banco de Dados",
+                "icon": "database",
+                "items": [
+                    {
+                        "name": "Oracle (PL/SQL)",
+                        "level": 85
+                    },
+                    {
+                        "name": "SQL Server",
+                        "level": 85
+                    },
+                    {
+                        "name": "MySQL",
+                        "level": 85
+                    },
+                    {
+                        "name": "MongoDB",
+                        "level": 70
+                    }
+                ]
+            },
+            {
+                "name": "Ambiente",
+                "icon": "terminal",
+                "items": [
+                    {
+                        "name": "Linux",
+                        "level": 85
+                    },
+                    {
+                        "name": "Windows",
+                        "level": 90
+                    },
+                    {
+                        "name": "MacOS",
+                        "level": 80
+                    },
+                    {
+                        "name": "Shell Scripting",
+                        "level": 80
+                    }
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "sectionTag": "Experiência",
+        "title": "Linha do Tempo",
+        "positions": [
+            {
+                "company": "Zukk Consultoria",
+                "role": "Analista de Testes Sênior",
+                "period": "Jan 2024 — Atual",
+                "type": "turnaround",
+                "allocation": "Neoenergia",
+                "allocationPeriod": "Jul 2025 — Atual",
+                "highlights": [
+                    "Destravou plataforma legada de energia estagnada há 5 anos → pronta para produção em 6 meses",
+                    "Liderança de homologação com stakeholders C-level — 100% de conformidade com regras de negócio",
+                    "Validação End-to-End (Frontend ↔ Oracle DB) garantindo zero regressões de integridade de dados",
+                    "Rastreabilidade total do ciclo de vida de testes via Azure DevOps em 200+ cenários"
+                ]
+            },
+            {
+                "company": "Zukk Consultoria",
+                "role": "Analista de Testes Sênior",
+                "period": "Jan 2024 — Jun 2025",
+                "type": "greenfield",
+                "allocation": "Serasa Experian",
+                "highlights": [
+                    "Framework de testes Greenfield do zero — 100% de cobertura BDD para o produto Agro Report",
+                    "Escrita acelerada por IA via GitHub Copilot → 3× mais rápido na criação de cenários BDD",
+                    "Automação com Robot Framework + validação de contratos de API RESTful via Bruno/Postman"
+                ]
+            },
+            {
+                "company": "CBYK Consultoria",
+                "role": "Analista de Testes / QA",
+                "period": "Set 2023 — Fev 2024",
+                "type": "automation",
+                "allocation": "TOTVS",
+                "highlights": [
+                    "Automação crítica de validação fiscal NFSE para o ERP #1 do Brasil — zero escapes de conformidade",
+                    "Scripts de automação de API + validação de dados MongoDB em fluxos fiscais complexos",
+                    "Garantia de integridade fiscal cobrindo 100% dos cenários de ciclo de vida de notas"
+                ]
+            },
+            {
+                "company": "123Milhas",
+                "role": "Analista de Testes Sênior",
+                "period": "Jun 2022 — Ago 2023",
+                "type": "automation",
+                "highlights": [
+                    "Ponto focal único entre 3 squads de dev → redução de 40% nos bloqueios entre times",
+                    "Modelagem completa de BDD + execução via Zephyr Scale em 500+ casos de teste",
+                    "Cobertura de regressão multiplataforma: Web + Android — testes exploratórios + usabilidade"
+                ]
+            },
+            {
+                "company": "Solistica",
+                "role": "Analista de Automação de Testes",
+                "period": "Mar 2022 — Jun 2022",
+                "type": "automation",
+                "highlights": [
+                    "Suíte de automação Python + Selenium estabilizando operações logísticas de missão crítica"
+                ]
+            },
+            {
+                "company": "Mediawork Sistemas",
+                "role": "Quality Assurance",
+                "period": "Ago 2021 — Mar 2022",
+                "type": "automation",
+                "highlights": [
+                    "QA internacional para Burger King & Popeyes — validação de PDV multi-região",
+                    "Testes de sistemas críticos de PDV + APIs em fluxos de pagamento e pedidos"
+                ]
+            },
+            {
+                "company": "VCom Tecnologia",
+                "role": "Quality Assurance",
+                "period": "Jul 2020 — Ago 2021",
+                "type": "automation",
+                "highlights": [
+                    "Testes End-to-End (Frontend, Backend e Mobile) para plataforma de recuperação de crédito",
+                    "Automação Selenium + manipulação e validação direta de dados em MS-SQL"
+                ]
+            },
+            {
+                "company": "APB Prodata / AutoPass",
+                "role": "Analista de Testes Pleno",
+                "period": "Out 2016 — Mar 2020",
+                "type": "greenfield",
+                "highlights": [
+                    "Testes pioneiros de pagamento EMV + QRCode no transporte de SP — 2M+ transações/dia validadas",
+                    "Construção do primeiro framework de automação Selenium WebDriver + Python do zero",
+                    "Setup de ambiente Linux Embarcado + testes de integração de hardware"
+                ]
+            },
+            {
+                "company": "Digicon S/A",
+                "role": "Analista de Testes Júnior",
+                "period": "Abr 2013 — Jul 2016",
+                "type": "automation",
+                "highlights": [
+                    "Base em sistemas de missão crítica de Controle de Acesso e Tráfego — 99.9% de uptime exigido",
+                    "Testes massivos de API (SoapUI) + manipulação avançada em Oracle e SQL Server"
+                ]
+            }
+        ]
+    },
+    "education": {
+        "sectionTag": "Formação & Cursos",
+        "title": "Base de Conhecimento",
+        "degree": {
+            "name": "Análise e Desenvolvimento de Sistemas",
+            "institution": "Centro Universitário FIEO"
+        },
+        "courses": [
+            {
+                "name": "Testes Automatizados e IA Generativa",
+                "platform": "Udemy",
+                "year": "2026"
+            },
+            {
+                "name": "Engenharia de Prompts com IA — Zero ao Avançado",
+                "platform": "Udemy",
+                "year": "2025"
+            },
+            {
+                "name": "Gestão Ágil com Scrum Completo",
+                "platform": "Udemy",
+                "year": "2025"
+            },
+            {
+                "name": "CTFL — Fundamentos do Teste de Software",
+                "platform": "ISTQB",
+                "year": "2017"
+            },
+            {
+                "name": "Automação de Testes com Robot Framework",
+                "platform": "Online",
+                "year": "2020"
+            },
+            {
+                "name": "Git e GitHub",
+                "platform": "Online",
+                "year": "2020"
+            }
+        ]
+    },
+    "testimonials": {
+        "sectionTag": "Depoimentos",
+        "title": "O Que Dizem",
+        "items": [
+            {
+                "quote": "Michel trouxe estabilidade para um sistema que estava parado há anos. Sua precisão técnica e abordagem AI-First fizeram a diferença.",
+                "author": "Stakeholder do Projeto",
+                "role": "Neoenergia"
+            },
+            {
+                "quote": "Sua capacidade de montar frameworks de qualidade do zero, especialmente usando ferramentas de IA, é notável. Um verdadeiro especialista greenfield.",
+                "author": "Tech Lead",
+                "role": "Serasa Experian"
+            }
+        ]
+    },
+    "contact": {
+        "sectionTag": "Contato",
+        "title": "Vamos Conectar",
+        "description": "Interessado em colaborar ou tem um projeto que precisa de expertise sênior em QA? Vamos conversar.",
+        "form": {
+            "name": "Seu nome",
+            "email": "Seu email",
+            "message": "Sua mensagem",
+            "send": "Enviar Mensagem"
+        },
+        "info": {
+            "location": "São Paulo, SP — Brasil",
+            "email": "michelrviana@gmail.com"
+        }
+    },
+    "footer": {
+        "copyright": "© 2026 Michel Viana. Todos os direitos reservados.",
+        "builtWith": "Feito com IA"
+    }
+}
