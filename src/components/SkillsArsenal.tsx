@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 import { useEffect, useRef, useState, useCallback } from 'react';
 import React from 'react';
 
@@ -130,6 +130,7 @@ function SkillRing({ level, size = 44, animate, gradientId }: SkillRingProps) {
 
 export function SkillsArsenal() {
     const t = useTranslations('skills');
+    const messages = useMessages();
     const sectionRef = useRef<HTMLElement>(null);
     const [isVisible, setIsVisible] = useState(false);
 
@@ -149,8 +150,9 @@ export function SkillsArsenal() {
         return () => observer.disconnect();
     }, [handleIntersection]);
 
-    // Get categories from translations
-    const categoryKeys = ['0', '1', '2', '3', '4', '5'];
+    // Derive category list directly from raw messages — avoids requesting keys that don't exist
+    const skillsData = (messages as Record<string, unknown>)?.skills as Record<string, unknown>;
+    const categoriesData = (skillsData?.categories as Record<string, unknown>[]) ?? [];
 
     return (
         <section id="skills" ref={sectionRef} className="skills-section" aria-label={t('sectionTag')}>
@@ -159,9 +161,10 @@ export function SkillsArsenal() {
                 <h2 className="skills-section__title">{t('title')}</h2>
 
                 <div className="skills-grid">
-                    {categoryKeys.map((catIdx, i) => {
+                    {categoriesData.map((cat, i) => {
+                        const catIdx = String(i);
                         const icon = t(`categories.${catIdx}.icon`);
-                        const itemKeys = ['0', '1', '2', '3', '4', '5', '6'];
+                        const itemsData = (cat?.items as Record<string, unknown>[]) ?? [];
 
                         return (
                             <div
@@ -177,23 +180,19 @@ export function SkillsArsenal() {
                                     <h3 className="skill-card__title">{t(`categories.${catIdx}.name`)}</h3>
                                 </div>
 
-                                {/* Skill Items */}
+                                {/* Skill Items — length from actual message data, never over-indexes */}
                                 <ul className="skill-card__items">
-                                    {itemKeys.map((itemIdx) => {
-                                        let name: string;
-                                        let level: number;
-                                        try {
-                                            name = t(`categories.${catIdx}.items.${itemIdx}.name`);
-                                            level = Number(t(`categories.${catIdx}.items.${itemIdx}.level`));
-                                        } catch {
-                                            return null;
-                                        }
+                                    {itemsData.map((_, itemIdx) => {
+                                        const idx = String(itemIdx);
+                                        const name = t(`categories.${catIdx}.items.${idx}.name`);
+                                        const level = Number(t(`categories.${catIdx}.items.${idx}.level`));
+
                                         if (!name || isNaN(level)) return null;
 
-                                        const uniqueGradientId = `sg-${catIdx}-${itemIdx}`;
+                                        const uniqueGradientId = `sg-${catIdx}-${idx}`;
 
                                         return (
-                                            <li key={itemIdx} className="skill-item">
+                                            <li key={idx} className="skill-item">
                                                 <div className="skill-item__info">
                                                     <span className="skill-item__name">{name}</span>
                                                     <div className="skill-item__bar-track">
