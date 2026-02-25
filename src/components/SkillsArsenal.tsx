@@ -163,7 +163,8 @@ export function SkillsArsenal() {
                 <div className="skills-grid">
                     {categoriesData.map((cat, i) => {
                         const catIdx = String(i);
-                        const icon = t(`categories.${catIdx}.icon`);
+                        const icon = String(cat.icon || 'terminal');
+                        const catName = String(cat.name || `Categoria ${catIdx}`);
                         const itemsData = (cat?.items as Record<string, unknown>[]) ?? [];
 
                         return (
@@ -177,15 +178,15 @@ export function SkillsArsenal() {
                                     <div className="skill-card__icon">
                                         {categoryIcons[icon] || categoryIcons.terminal}
                                     </div>
-                                    <h3 className="skill-card__title">{t(`categories.${catIdx}.name`)}</h3>
+                                    <h3 className="skill-card__title">{catName}</h3>
                                 </div>
 
-                                {/* Skill Items — length from actual message data, never over-indexes */}
+                                {/* Skill Items */}
                                 <ul className="skill-card__items">
-                                    {itemsData.map((_, itemIdx) => {
+                                    {itemsData.map((item, itemIdx) => {
                                         const idx = String(itemIdx);
-                                        const name = t(`categories.${catIdx}.items.${idx}.name`);
-                                        const level = Number(t(`categories.${catIdx}.items.${idx}.level`));
+                                        const name = String(item.name || '');
+                                        const level = Number(item.level);
 
                                         if (!name || isNaN(level)) return null;
 

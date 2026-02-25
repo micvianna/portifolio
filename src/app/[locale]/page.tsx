@@ -4,6 +4,8 @@ import { ExperienceTimeline } from '@/components/ExperienceTimeline';
 import { BuiltWithAI } from '@/components/BuiltWithAI';
 import { AboutPersonal } from '@/components/AboutPersonal';
 import { ProjectsGrid } from '@/components/ProjectsGrid';
+import { Education } from '@/components/Education';
+import { Contact } from '@/components/Contact';
 
 export default function Home() {
     return (
@@ -14,6 +16,8 @@ export default function Home() {
             <BuiltWithAI />
             <AboutPersonal />
             <ProjectsGrid />
+            <Education />
+            <Contact />
         </>
     );
 }

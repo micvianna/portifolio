@@ -13,6 +13,9 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  {
+    files: ["src/**/*.{js,jsx,ts,tsx}"]
+  }
 ]);
 
 export default eslintConfig;

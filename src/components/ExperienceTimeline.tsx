@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 import { useEffect, useRef, useState, useCallback } from 'react';
 
 const typeConfig: Record<string, { color: string; label: string; glow: string }> = {
@@ -39,6 +39,7 @@ function TimelineLegend() {
 
 export function ExperienceTimeline() {
     const t = useTranslations('experience');
+    const messages = useMessages();
     const sectionRef = useRef<HTMLElement>(null);
     const timelineRef = useRef<HTMLDivElement>(null);
     const [visibleItems, setVisibleItems] = useState<Set<number>>(new Set());
@@ -106,33 +107,25 @@ export function ExperienceTimeline() {
                     />
 
                     {positionKeys.map((posIdx, i) => {
-                        let company: string;
-                        try {
-                            company = t(`positions.${posIdx}.company`);
-                        } catch {
-                            return null;
-                        }
+                        const experienceData = (messages as Record<string, unknown>)?.experience as Record<string, unknown>;
+                        const positionsData = (experienceData?.positions as Record<string, unknown>[]) ?? [];
+                        const pos = positionsData[parseInt(posIdx)];
+
+                        if (!pos) return null;
+
+                        const company = String(pos.company || '');
                         if (!company) return null;
 
-                        const role = t(`positions.${posIdx}.role`);
-                        const period = t(`positions.${posIdx}.period`);
-                        const type = t(`positions.${posIdx}.type`) as keyof typeof typeConfig;
+                        const role = String(pos.role || '');
+                        const period = String(pos.period || '');
+                        const type = String(pos.type || 'automation') as keyof typeof typeConfig;
                         const config = typeConfig[type] || typeConfig.automation;
 
-                        // next-intl returns the key path as string when key is missing, so we check for that
-                        const allocationRaw = t(`positions.${posIdx}.allocation`);
-                        const allocationPeriodRaw = t(`positions.${posIdx}.allocationPeriod`);
-                        const allocation = allocationRaw.startsWith('experience.') ? null : allocationRaw;
-                        const allocationPeriod = allocationPeriodRaw.startsWith('experience.') ? null : allocationPeriodRaw;
+                        const allocation = pos.allocation ? String(pos.allocation) : null;
+                        const allocationPeriod = pos.allocationPeriod ? String(pos.allocationPeriod) : null;
 
-                        // Get highlights
-                        const highlights: string[] = [];
-                        for (let h = 0; h < 5; h++) {
-                            try {
-                                const hl = t(`positions.${posIdx}.highlights.${h}`);
-                                if (hl) highlights.push(hl);
-                            } catch { break; }
-                        }
+                        const rawHighlights = Array.isArray(pos.highlights) ? pos.highlights : [];
+                        const highlights = rawHighlights.map(h => String(h));
 
                         const isVisible = visibleItems.has(i);
                         const isLeft = i % 2 === 0;

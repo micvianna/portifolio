@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 import { useEffect, useRef, useState } from 'react';
 
 interface ProjectCard {
@@ -33,6 +33,7 @@ const DecodeIcon = () => (
 
 export function ProjectsGrid() {
     const t = useTranslations('projects');
+    const messages = useMessages();
     const sectionRef = useRef<HTMLElement>(null);
     const [visibleCards, setVisibleCards] = useState<Set<string>>(new Set());
 
@@ -65,28 +66,24 @@ export function ProjectsGrid() {
 
                 <div className="projects-grid">
                     {projects.map(({ id, accent }) => {
-                        let title: string;
-                        let challenge: string;
-                        let approach: string;
-                        let result: string;
-                        let stack: string[];
-                        try {
-                            title = t(`items.${id}.title`);
-                            challenge = t(`items.${id}.challenge`);
-                            approach = t(`items.${id}.approach`);
-                            result = t(`items.${id}.result`);
-                            stack = [
-                                t(`items.${id}.stack.0`),
-                                t(`items.${id}.stack.1`),
-                                t(`items.${id}.stack.2`),
-                                t(`items.${id}.stack.3`),
-                            ].filter(Boolean);
-                        } catch {
-                            title = 'Decoding Case...';
-                            challenge = '';
-                            approach = '';
-                            result = '';
-                            stack = [];
+                        const projectsData = (messages as Record<string, unknown>)?.projects as Record<string, unknown>;
+                        const itemsData = (projectsData?.items as Record<string, unknown>[]) ?? [];
+                        const item = itemsData[parseInt(id)];
+
+                        let title = 'Decoding Case...';
+                        let challenge = '';
+                        let approach = '';
+                        let result = '';
+                        let stack: string[] = [];
+
+                        if (item) {
+                            title = String(item.title || 'Decoding Case...');
+                            challenge = String(item.challenge || '');
+                            approach = String(item.approach || '');
+                            result = String(item.result || '');
+
+                            const rawStack = Array.isArray(item.stack) ? item.stack : [];
+                            stack = rawStack.map(s => String(s)).filter(Boolean);
                         }
 
                         const isVisible = visibleCards.has(id);

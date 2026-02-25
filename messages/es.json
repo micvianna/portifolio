@@ -377,8 +377,8 @@
                 "period": "Abr 2013 — Jul 2016",
                 "type": "automation",
                 "highlights": [
-                    "Base en sistemas de misión crítica de Control de Acceso y Tráfico — 99.9% de uptime requerido",
-                    "Pruebas masivas de API (SoapUI) + manipulación avanzada en Oracle y SQL Server"
+                    "Base en sistemas de misión crítica para Control de Acceso y Tráfico — 99.9% de uptime requerido",
+                    "Pruebas masivas de API (SoapUI) + manipulación avanzada de base de datos en Oracle & SQL Server"
                 ]
             }
         ]
