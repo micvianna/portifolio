@@ -61,7 +61,7 @@ export default async function LocaleLayout({
     const messages = await getMessages();
 
     return (
-        <html lang={locale} suppressHydrationWarning>
+        <html lang={locale} data-theme="dark" suppressHydrationWarning>
             <body
                 className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}
                 suppressHydrationWarning
