@@ -86,7 +86,7 @@ export function ExperienceTimeline() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const positionKeys = ['0', '1', '2', '3', '4', '5', '6', '7', '8'];
+    const positionKeys = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
     return (
         <section id="experience" ref={sectionRef} className="timeline-section" aria-label={t('sectionTag')}>
@@ -119,14 +119,11 @@ export function ExperienceTimeline() {
                         const type = t(`positions.${posIdx}.type`) as keyof typeof typeConfig;
                         const config = typeConfig[type] || typeConfig.automation;
 
-                        let allocation: string | null = null;
-                        let allocationPeriod: string | null = null;
-                        try {
-                            allocation = t(`positions.${posIdx}.allocation`);
-                        } catch { /* no allocation */ }
-                        try {
-                            allocationPeriod = t(`positions.${posIdx}.allocationPeriod`);
-                        } catch { /* no allocation period */ }
+                        // next-intl returns the key path as string when key is missing, so we check for that
+                        const allocationRaw = t(`positions.${posIdx}.allocation`);
+                        const allocationPeriodRaw = t(`positions.${posIdx}.allocationPeriod`);
+                        const allocation = allocationRaw.startsWith('experience.') ? null : allocationRaw;
+                        const allocationPeriod = allocationPeriodRaw.startsWith('experience.') ? null : allocationPeriodRaw;
 
                         // Get highlights
                         const highlights: string[] = [];

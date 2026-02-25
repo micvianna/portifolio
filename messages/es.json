@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "Michel Viana — Analista de Pruebas Senior | Testing AI-First",
+        "title": "Michel Ribeiro Viana — Analista de Pruebas Senior | Testing AI-First",
         "description": "Analista de Pruebas Senior con 13+ años de experiencia y mentalidad AI-First. Especialista en Robot Framework, Cypress e Ingeniería de Prompts para QA."
     },
     "nav": {
@@ -13,7 +13,7 @@
     },
     "hero": {
         "greeting": "Hola, soy",
-        "name": "Michel Viana",
+        "name": "Michel Ribeiro Viana",
         "role": "Analista de Pruebas Senior",
         "typingPhrases": [
             "QA Engineer AI-First",
