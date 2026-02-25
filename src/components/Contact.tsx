@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useEffect, useRef, useState, useCallback } from 'react';
+import { ContactForm } from './ContactForm';
 
 export function Contact() {
     const t = useTranslations('contact');
@@ -88,45 +89,8 @@ export function Contact() {
 
                     <div style={{ height: '1px', background: 'var(--border-subtle)', width: '100%' }} />
 
-                    {/* Contact Form Placeholder */}
-                    <form style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }} onSubmit={(e) => e.preventDefault()}>
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
-                            <input
-                                type="text"
-                                placeholder={t('form.name')}
-                                style={{
-                                    background: 'var(--bg-secondary)', border: '1px solid var(--border-subtle)', color: 'var(--text-primary)',
-                                    padding: '0.75rem 1rem', borderRadius: '0.5rem', width: '100%', fontFamily: 'var(--font-body)'
-                                }}
-                            />
-                            <input
-                                type="email"
-                                placeholder={t('form.email')}
-                                style={{
-                                    background: 'var(--bg-secondary)', border: '1px solid var(--border-subtle)', color: 'var(--text-primary)',
-                                    padding: '0.75rem 1rem', borderRadius: '0.5rem', width: '100%', fontFamily: 'var(--font-body)'
-                                }}
-                            />
-                        </div>
-                        <textarea
-                            placeholder={t('form.message')}
-                            rows={4}
-                            style={{
-                                background: 'var(--bg-secondary)', border: '1px solid var(--border-subtle)', color: 'var(--text-primary)',
-                                padding: '0.75rem 1rem', borderRadius: '0.5rem', width: '100%', fontFamily: 'var(--font-body)', resize: 'vertical'
-                            }}
-                        />
-                        <button style={{
-                            background: 'var(--gradient-accent)', color: '#fff', border: 'none', padding: '0.75rem 2rem',
-                            borderRadius: '0.5rem', fontWeight: 600, cursor: 'pointer', alignSelf: 'flex-start',
-                            transition: 'transform 0.2s, boxShadow 0.2s'
-                        }}
-                            onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
-                            onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
-                        >
-                            {t('form.send')}
-                        </button>
-                    </form>
+                    {/* Contact Form */}
+                    <ContactForm />
                 </div>
             </div>
         </section>

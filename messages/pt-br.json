@@ -287,30 +287,13 @@
                 "role": "Analista de Testes Sênior",
                 "period": "Jan 2024 — Atual",
                 "type": "turnaround",
-                "allocation": "Vivo",
-                "allocationPeriod": "Jan 2026 — Atual",
-                "highlights": [
-                    "Liderança técnica no turnaround do Sistema de Monitoramento e Diagnóstico de Falhas (UC 8.2), viabilizando a evolução da arquitetura legada para um modelo integrado de alta disponibilidade em 6 meses.",
-                    "Homologação de regras de negócio complexas para cálculo de autonomia de baterias (SOC/SOH) e alarmística de infraestrutura (Site Down, Falha de AC), garantindo 100% de conformidade regulatória.",
-                    "Validação de fluxos de ingestão de dados multiorigem (SG-Infra, Prisma, NetEco/Panda e TEMS) operados via Airflow, Apache NiFi e processamento distribuído com Spark.",
-                    "Execução de testes End-to-End e de integridade em arquitetura de dados multicamada, abrangendo processamento em Hive (retenção 365 dias), PostgreSQL (Raw/Gold) e banco Druid.",
-                    "Garantia de estabilidade no motor de regras de alarmes e na publicação em tópicos Kafka para integração com sistemas de gestão de eventos e abertura de tickets SIGITM.",
-                    "Implementação de rastreabilidade total via Azure DevOps para mais de 200 cenários críticos, cobrindo dashboards configuráveis, APIs de visualização e hierarquia geográfica."
-                ]
-            },
-            {
-                "company": "Zukk Consultoria",
-                "role": "Analista de Testes Sênior",
-                "period": "Jan 2024 — Atual",
-                "type": "turnaround",
                 "allocation": "Neoenergia",
-                "allocationPeriod": "Jul 2025 — Jan 2026",
+                "allocationPeriod": "Jul 2025 — Atual",
                 "highlights": [
-                    "Liderança técnica no turnaround de plataforma legada de gestão de energia estagnada há 5 anos, reestruturando a estratégia de QA e viabilizando a entrada em produção em apenas 6 meses.",
-                    "Gestão direta da homologação junto a stakeholders C-level, garantindo 100% de conformidade com as complexas regras de negócio do setor elétrico e normas regulatórias da ANEEL.",
-                    "Execução de testes End-to-End (E2E) com validação profunda de integridade de dados (Frontend ↔ Oracle DB), mitigando riscos de inconsistência financeira e operacional.",
-                    "Implementação de rastreabilidade total do ciclo de vida de testes via Azure DevOps para mais de 200 cenários críticos, elevando o nível de maturidade e governança de qualidade do projeto.",
-                    "Garantia de estabilidade em fluxos de alta complexidade técnica, abrangendo desde a interface do usuário até o processamento de grandes volumes de dados no back-end."
+                    "Destravou plataforma legada de energia estagnada há 5 anos → pronta para produção em 6 meses",
+                    "Liderou homologação com stakeholders C-level — 100% de conformidade com regras de negócio",
+                    "Validação End-to-End (Frontend ↔ Oracle DB) garantindo zero regressões de integridade de dados",
+                    "Rastreabilidade total do ciclo de vida de testes via Azure DevOps em mais de 200 cenários"
                 ]
             },
             {
@@ -320,12 +303,9 @@
                 "type": "greenfield",
                 "allocation": "Serasa Experian",
                 "highlights": [
-                    "Liderança e construção do framework de testes Greenfield para o produto Agro Report, garantindo 100% de cobertura BDD em fluxos críticos de análise de crédito rural e risco socioambiental.",
-                    "Otimização da esteira de QA utilizando IA Generativa (GitHub Copilot), atingindo um aumento de 3x na velocidade de escrita de cenários BDD para validação de regras complexas de compliance e ESG.",
-                    "Implementação de automação com Robot Framework e testes de contrato de API RESTful via Bruno/Postman, assegurando a integridade da integração com bureaus de dados e sistemas de monitoramento geoespacial.",
-                    "Atuação estratégica em Quality Engineering, participando ativamente das definições de arquitetura e planejamento de testes para soluções orientadas a dados (Data-Driven Decisions).",
-                    "Promoção da cultura Shift-Left através de colaboração técnica em cerimônias ágeis, reduzindo o retrabalho e acelerando o ciclo de entrega de funcionalidades de alta criticidade.",
-                    "Homologação de relatórios de inteligência de dados, validando a precisão de indicadores de sanções, embargos e conformidade com políticas de sustentabilidade."
+                    "Arquitetou framework de testes Greenfield do zero — 100% de cobertura BDD para o produto Agro Report",
+                    "Criação de scripts acelerada por IA com GitHub Copilot → 3× mais rápido na escrita de cenários BDD",
+                    "Automação com Robot Framework + validação de contratos de API RESTful via Bruno/Postman"
                 ]
             },
             {
@@ -335,11 +315,9 @@
                 "type": "automation",
                 "allocation": "TOTVS",
                 "highlights": [
-                    "QA focado no módulo TMS (Transportation Management System) do ERP TOTVS, garantindo a integridade de processos de gestão de fretes e documentos de transporte.",
-                    "Automação crítica de validação fiscal para emissão de NFS-e, assegurando conformidade com regras tributárias complexas e alcançando a marca de zero escapes em produção.",
-                    "Desenvolvimento de scripts para testes de API e validação de dados em MongoDB, garantindo a persistência e a consistência de informações em fluxos fiscais de alta volumetria.",
-                    "Homologação integral do ciclo de vida de documentos eletrônicos, cobrindo 100% dos cenários de emissão, autorização e cancelamento dentro da suíte logística.",
-                    "Validação de integrações entre o back-office fiscal e os módulos operacionais, assegurando a estabilidade do sistema líder de mercado no Brasil."
+                    "Automatizou validação fiscal crítica NFSE para o ERP #1 do Brasil — zero escapes de conformidade",
+                    "Scripts de teste de API + validação de dados MongoDB em fluxos de transações fiscais complexos",
+                    "Garantia de integridade fiscal cobrindo 100% dos cenários de ciclo de vida de notas fiscais"
                 ]
             },
             {
@@ -348,12 +326,9 @@
                 "period": "Jun 2022 — Ago 2023",
                 "type": "automation",
                 "highlights": [
-                    "Ponto focal técnico de QA entre 3 squads de desenvolvimento, reduzindo em 40% os bloqueios de integração e otimizando o hand-off de funcionalidades do módulo de Hotéis.",
-                    "Modelagem completa de suítes de teste em BDD (Behavior Driven Development) com gestão via Zephyr Scale, cobrindo mais de 500 cenários críticos de reserva e emissão.",
-                    "Liderança do ciclo de testes regressivos multiplataforma (Web e Android), garantindo a estabilidade do funil de vendas, desde a busca por disponibilidade até o checkout de pagamento.",
-                    "Validação técnica de integrações com APIs de parceiros e inventários hoteleiros, assegurando a paridade de preços e a integridade do processamento de cupons e milhas.",
-                    "Execução de testes exploratórios de usabilidade e performance, focados na conversão e na jornada do usuário em cenários de alta volumetria de tráfego.",
-                    "Homologação de fluxos críticos de pós-venda, incluindo geração de vouchers, cancelamentos e reembolsos automáticos dentro do ecossistema de hospitalidade."
+                    "Ponto de contato único conectando 3 squads de desenvolvimento → redução de 40% em bloqueios entre equipes",
+                    "Modelagem completa de cenários BDD + execução via Zephyr Scale cobrindo mais de 500 casos de teste",
+                    "Cobertura de regressão multiplataforma: Web + Android — testes exploratórios + usabilidade"
                 ]
             },
             {
@@ -362,11 +337,7 @@
                 "period": "Mar 2022 — Jun 2022",
                 "type": "automation",
                 "highlights": [
-                    "Desenvolvimento e manutenção de suítes de automação com Python e Selenium para estabilização de sistemas de missão crítica em operações logísticas 3PL.",
-                    "Validação de fluxos operacionais complexos envolvendo Armazenagem (WMS), Transporte (TMS) e serviços de valor agregado para indústrias de alto rigor (Saúde, Alimentos e Varejo).",
-                    "Garantia da integridade de dados e performance em processos de Carga Completa (FTL), Fracionada (LTL) e Logística Internacional.",
-                    "Execução de testes automatizados para assegurar a continuidade 24/7 de operações de supply chain integradas ao ecossistema da plataforma Traxion.",
-                    "Implementação de rotinas de testes de regressão para mitigar riscos em integrações de software que suportam milhões de km percorridos e m² de armazenagem."
+                    "Suíte de automação Python + Selenium estabilizando operações logísticas de missão crítica"
                 ]
             },
             {
@@ -375,11 +346,8 @@
                 "period": "Ago 2021 — Mar 2022",
                 "type": "automation",
                 "highlights": [
-                    "QA internacional em ecossistemas de PDV (Point of Sale) para as marcas Burger King e Popeyes, com validação de requisitos críticos multi-região (idiomas, moedas e conformidade fiscal).",
-                    "Validação de plataformas baseadas em microsserviços, assegurando a integridade dos fluxos de pedidos, pagamentos e integração com sistemas de back-office.",
-                    "Testes de ponta a ponta em soluções de autoatendimento (Kiosk) e Drive-Thru para operações QSR Tier 1, com foco em alta disponibilidade e performance.",
-                    "Homologação de APIs para a integração de software de PDV com diversos periféricos de hardware e gateways de pagamento globais.",
-                    "Garantia de interoperabilidade e escalabilidade de sistemas customizados, assegurando a estabilidade de operações de retalho em larga escala."
+                    "QA internacional para Burger King & Popeyes — validação de PDV multi-região",
+                    "Sistema crítico de Ponto de Venda (PDV) + testes de API através de fluxos de pagamento e pedidos"
                 ]
             },
             {
@@ -388,11 +356,8 @@
                 "period": "Jul 2020 — Ago 2021",
                 "type": "automation",
                 "highlights": [
-                    "QA de ponta a ponta na plataforma de recuperação de crédito e cobrança, validando motores de cálculo financeiro e réguas de acionamento multicanal.",
-                    "Implementação de automação Selenium WebDriver para validação de sistemas back-office e portais de negociação de débitos.",
-                    "Validação de integridade de dados via MS-SQL Server, realizando manipulações e consultas diretas para garantir a consistência de saldos e históricos em bases transacionais.",
-                    "Homologação multiplataforma (Web, Backend e Mobile), assegurando a integridade da jornada do usuário em fluxos de liquidação de dívidas.",
-                    "Testes de integração de APIs para canais de atendimento digital e enriquecimento de dados via bureaus de crédito."
+                    "Testes End-to-End (Frontend, Backend & Mobile) para plataforma de recuperação de crédito",
+                    "Automação Selenium com manipulação e validação direta de dados MS-SQL"
                 ]
             },
             {
@@ -401,11 +366,9 @@
                 "period": "Out 2016 — Mar 2020",
                 "type": "greenfield",
                 "highlights": [
-                    "QA de ponta a ponta no ecossistema SBE/ABT, validando pagamentos EMV (Contactless), NFC e QR Code para fluxos de 2M+ transações/dia.",
-                    "Construção do primeiro framework de automação Selenium WebDriver + Python do zero para validação de sistemas de back-office e portais de venda.",
-                    "Testes de integração de hardware e software para sistemas ITS e Gestão de Frota (SGF), operando com telemetria, GPS e consoles de bordo em Linux Embarcado.",
-                    "Validação técnica de sistemas de Biometria Facial antifraude e homologação de Terminais de Autoatendimento (ATM) e dispositivos POS.",
-                    "Execução de testes de estresse e carga em ambientes de bilhetagem eletrônica para garantir a integridade da compensação financeira."
+                    "Pioneirismo em testes de pagamento EMV + QRCode para o transporte de São Paulo — 2M+ transações diárias validadas",
+                    "Construiu o primeiro framework de automação Selenium WebDriver + Python do zero",
+                    "Configuração de ambiente Linux Embarcado + testes de integração de hardware"
                 ]
             },
             {
@@ -414,11 +377,8 @@
                 "period": "Abr 2013 — Jul 2016",
                 "type": "automation",
                 "highlights": [
-                    "QA de sistemas de missão crítica para Controle de Acesso e Tráfego, garantindo 99.9% de uptime em ambientes de alta disponibilidade como aeroportos, hospitais e estádios.",
-                    "Homologação técnica de hardware e firmware para bloqueios motorizados (dFlow, dGate) e catracas (Catrax), validando sensores de passagem e mecanismos de segurança.",
-                    "Testes de integração entre controladoras de acesso (MCAnet) e terminais inteligentes, garantindo a precisão de acionamentos e comunicação em tempo real.",
-                    "Execução de testes massivos de API (SoapUI) para integração de sistemas de controle e arrecadação de passageiros (SCAP) com o back-office.",
-                    "Manipulação avançada de bancos de dados Oracle e SQL Server para validação de logs de eventos, regras de acesso e integridade de dados de auditoria."
+                    "Base em sistemas de missão crítica de Controle de Acesso e Tráfego — 99.9% de uptime exigido",
+                    "Testes massivos de API (SoapUI) + manipulação avançada de banco de dados Oracle & SQL Server"
                 ]
             }
         ]
@@ -486,8 +446,13 @@
         "form": {
             "name": "Seu nome",
             "email": "Seu email",
+            "phone": "Telefone / WhatsApp",
             "message": "Sua mensagem",
-            "send": "Enviar Mensagem"
+            "lgpd": "Aceito receber comunicações via e-mail e WhatsApp",
+            "send": "Enviar Mensagem",
+            "sending": "Enviando...",
+            "success": "Mensagem enviada com sucesso!",
+            "error": "Falha ao enviar mensagem. Tente novamente."
         },
         "info": {
             "location": "São Paulo, SP — Brasil",

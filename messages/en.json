@@ -446,8 +446,13 @@
     "form": {
       "name": "Your name",
       "email": "Your email",
+      "phone": "Phone number",
       "message": "Your message",
-      "send": "Send Message"
+      "lgpd": "I agree to receive communications via email and WhatsApp",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
     },
     "info": {
       "location": "São Paulo, SP — Brazil",

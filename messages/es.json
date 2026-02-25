@@ -291,9 +291,9 @@
                 "allocationPeriod": "Jul 2025 — Actual",
                 "highlights": [
                     "Desbloqueó plataforma legada de energía estancada por 5 años → lista para producción en 6 meses",
-                    "Liderazgo de homologación con stakeholders C-level — 100% de conformidad con reglas de negocio",
-                    "Validación End-to-End (Frontend ↔ Oracle DB) garantizando cero regresiones de integridad de datos",
-                    "Trazabilidad total del ciclo de vida de pruebas vía Azure DevOps en 200+ escenarios"
+                    "Lideró la homologación con stakeholders C-level — 100% de cumplimiento con reglas de negocio",
+                    "Validación End-to-End (Frontend ↔ Oracle DB) garantizando cero regresiones en integridad de datos",
+                    "Trazabilidad total del ciclo de vida de pruebas vía Azure DevOps en más de 200 escenarios"
                 ]
             },
             {
@@ -303,8 +303,8 @@
                 "type": "greenfield",
                 "allocation": "Serasa Experian",
                 "highlights": [
-                    "Framework de pruebas Greenfield desde cero — 100% de cobertura BDD para producto Agro Report",
-                    "Scripting acelerado por IA vía GitHub Copilot → 3× más rápido en creación de escenarios BDD",
+                    "Arquitectó framework de pruebas Greenfield desde cero — 100% de cobertura BDD para producto Agro Report",
+                    "Creación de scripts acelerada por IA con GitHub Copilot → 3× más rápido en escritura de escenarios BDD",
                     "Automatización con Robot Framework + validación de contratos de API RESTful vía Bruno/Postman"
                 ]
             },
@@ -315,9 +315,9 @@
                 "type": "automation",
                 "allocation": "TOTVS",
                 "highlights": [
-                    "Automatización crítica de validación fiscal NFSE para el ERP #1 de Brasil — cero escapes de conformidad",
-                    "Scripts de automatización de API + validación de datos MongoDB en flujos fiscales complejos",
-                    "Garantía de integridad fiscal cubriendo 100% de escenarios del ciclo de vida de facturas"
+                    "Automatizó la validación fiscal crítica NFSE para el ERP #1 de Brasil — cero escapes de conformidad",
+                    "Scripts de prueba de API + validación de datos MongoDB en flujos de transacciones fiscales complejas",
+                    "Garantía de integridad fiscal cubriendo el 100% de los escenarios de facturación"
                 ]
             },
             {
@@ -326,8 +326,8 @@
                 "period": "Jun 2022 — Ago 2023",
                 "type": "automation",
                 "highlights": [
-                    "Punto focal único entre 3 squads de dev → reducción de 40% en bloqueos entre equipos",
-                    "Modelado completo de BDD + ejecución vía Zephyr Scale en 500+ casos de prueba",
+                    "Único punto de contacto conectando 3 squads de desarrollo → reducción del 40% en bloqueos entre equipos",
+                    "Modelado completo de escenarios BDD + ejecución vía Zephyr Scale cubriendo más de 500 casos",
                     "Cobertura de regresión multiplataforma: Web + Android — pruebas exploratorias + usabilidad"
                 ]
             },
@@ -347,7 +347,7 @@
                 "type": "automation",
                 "highlights": [
                     "QA internacional para Burger King & Popeyes — validación de PDV multi-región",
-                    "Pruebas de sistemas críticos de PDV + APIs en flujos de pago y pedidos"
+                    "Sistema crítico de Punto de Venta (PDV) + pruebas de API en flujos de pago y pedidos"
                 ]
             },
             {
@@ -357,7 +357,7 @@
                 "type": "automation",
                 "highlights": [
                     "Pruebas End-to-End (Frontend, Backend y Mobile) para plataforma de recuperación de crédito",
-                    "Automatización Selenium + manipulación y validación directa de datos en MS-SQL"
+                    "Automatización Selenium con manipulación y validación directa de datos MS-SQL"
                 ]
             },
             {
@@ -366,9 +366,9 @@
                 "period": "Oct 2016 — Mar 2020",
                 "type": "greenfield",
                 "highlights": [
-                    "Pruebas pioneras de pago EMV + QRCode en el transporte de SP — 2M+ transacciones/día validadas",
-                    "Construcción del primer framework de automatización Selenium WebDriver + Python desde cero",
-                    "Setup de entorno Linux Embebido + pruebas de integración de hardware"
+                    "Pruebas pioneras de pagos EMV + QRCode para transporte de São Paulo — 2M+ transacciones diarias validadas",
+                    "Construyó el primer framework de automatización Selenium WebDriver + Python desde cero",
+                    "Configuración de entorno Linux Embebido + pruebas de integración de hardware"
                 ]
             },
             {
@@ -378,7 +378,7 @@
                 "type": "automation",
                 "highlights": [
                     "Base en sistemas de misión crítica para Control de Acceso y Tráfico — 99.9% de uptime requerido",
-                    "Pruebas masivas de API (SoapUI) + manipulación avanzada de base de datos en Oracle & SQL Server"
+                    "Pruebas masivas de API (SoapUI) + manipulación avanzada de bases de datos Oracle & SQL Server"
                 ]
             }
         ]
@@ -446,8 +446,13 @@
         "form": {
             "name": "Tu nombre",
             "email": "Tu email",
+            "phone": "Teléfono / WhatsApp",
             "message": "Tu mensaje",
-            "send": "Enviar Mensaje"
+            "lgpd": "Acepto recibir comunicaciones por email y WhatsApp",
+            "send": "Enviar Mensaje",
+            "sending": "Enviando...",
+            "success": "Mensaje enviado con éxito!",
+            "error": "Error al enviar el mensaje. Intenta de nuevo."
         },
         "info": {
             "location": "São Paulo, SP — Brasil",
