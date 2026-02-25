@@ -69,12 +69,14 @@ export function Hero() {
             </div>
 
             {/* Scroll Hint */}
-            <div className="hero__scroll-hint animate-fade-in-up delay-700 absolute left-1/2 -translate-x-1/2 flex flex-col items-center">
-                <span>{t('scrollHint')}</span>
-                <svg className="animate-scroll-hint" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="7 13 12 18 17 13" />
-                    <polyline points="7 6 12 11 17 6" />
-                </svg>
+            <div className="absolute left-1/2 bottom-8 -translate-x-1/2 z-10 w-full flex justify-center">
+                <div className="animate-fade-in-up delay-700 flex flex-col items-center gap-2" style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', color: 'var(--text-muted)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
+                    <span>{t('scrollHint')}</span>
+                    <svg className="animate-scroll-hint" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="7 13 12 18 17 13" />
+                        <polyline points="7 6 12 11 17 6" />
+                    </svg>
+                </div>
             </div>
         </section>
     );

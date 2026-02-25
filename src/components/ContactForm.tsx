@@ -89,6 +89,14 @@ export function ContactForm() {
                         --PhoneInputCountryFlag-borderColor: var(--border-subtle);
                         --PhoneInputCountrySelectArrow-color: var(--text-muted);
                     }
+                    .PhoneInputCountrySelect {
+                        background-color: var(--bg-secondary);
+                        color: var(--text-primary);
+                    }
+                    .PhoneInputCountrySelect option {
+                        background-color: var(--bg-secondary);
+                        color: var(--text-primary);
+                    }
                 `}</style>
                 <PhoneInput
                     defaultCountry="BR"
