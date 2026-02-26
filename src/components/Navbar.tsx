@@ -3,7 +3,6 @@
 import { useTranslations } from 'next-intl';
 import { ThemeToggle } from './ThemeToggle';
 import { LanguageSwitcher } from './LanguageSwitcher';
-import { DesignSwitcher } from './DesignSwitcher';
 import { useEffect, useState } from 'react';
 
 export function Navbar() {
@@ -21,6 +20,7 @@ export function Navbar() {
         { href: '#about', label: t('about') },
         { href: '#skills', label: t('skills') },
         { href: '#experience', label: t('experience') },
+        { href: '#projects', label: t('cases') },
         { href: '#education', label: t('education') },
         { href: '#contact', label: t('contact') },
     ];
@@ -48,7 +48,6 @@ export function Navbar() {
                 <div className="navbar__controls">
                     <LanguageSwitcher />
                     <ThemeToggle />
-                    <DesignSwitcher />
 
                     {/* Mobile Hamburger */}
                     <button
