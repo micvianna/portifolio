@@ -5,6 +5,7 @@ import { Space_Grotesk, Inter, JetBrains_Mono } from 'next/font/google';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { DesignProvider } from '@/context/DesignContext';
 import '../globals.css';
 import '../components.css';
 
@@ -67,11 +68,13 @@ export default async function LocaleLayout({
                 suppressHydrationWarning
             >
                 <ThemeProvider>
-                    <NextIntlClientProvider messages={messages}>
-                        <Navbar />
-                        <main>{children}</main>
-                        <Footer />
-                    </NextIntlClientProvider>
+                    <DesignProvider>
+                        <NextIntlClientProvider messages={messages}>
+                            <Navbar />
+                            <main>{children}</main>
+                            <Footer />
+                        </NextIntlClientProvider>
+                    </DesignProvider>
                 </ThemeProvider>
             </body>
         </html>

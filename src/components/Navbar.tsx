@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { ThemeToggle } from './ThemeToggle';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { DesignSwitcher } from './DesignSwitcher';
 import { useEffect, useState } from 'react';
 
 export function Navbar() {
@@ -47,6 +48,7 @@ export function Navbar() {
                 <div className="navbar__controls">
                     <LanguageSwitcher />
                     <ThemeToggle />
+                    <DesignSwitcher />
 
                     {/* Mobile Hamburger */}
                     <button
