@@ -285,100 +285,140 @@
       {
         "company": "Zukk Consultoria",
         "role": "Senior Test Analyst",
-        "period": "Jan 2024 — Present",
+        "period": "Jan 2024  Present",
         "type": "turnaround",
-        "allocation": "Neoenergia",
-        "allocationPeriod": "Jul 2025 — Present",
+        "allocation": "Vivo",
+        "allocationPeriod": "Jan 2026  Present",
         "highlights": [
-          "Unblocked a 5-year stalled legacy energy platform → production-ready in 6 months",
-          "Led homologation with C-level stakeholders — 100% business rule compliance achieved",
-          "End-to-End validation (Frontend ↔ Oracle DB) ensuring zero data integrity regressions",
-          "Full test lifecycle traceability via Azure DevOps across 200+ test scenarios"
+          "Technical leadership in the turnaround of the Fault Monitoring and Diagnostics System (UC 8.2), enabling the evolution of legacy architecture to an integrated high-availability model in 6 months.",
+          "Homologation of complex business rules for battery autonomy calculation (SOC/SOH) and infrastructure alarming (Site Down, AC Failure), ensuring 100% regulatory compliance.",
+          "Validation of multi-source data ingestion flows (SG-Infra, Prisma, NetEco/Panda, and TEMS) operated via Airflow, Apache NiFi, and distributed processing with Spark.",
+          "Execution of End-to-End and integrity tests in multi-layer data architecture, covering processing in Hive (365-day retention), PostgreSQL (Raw/Gold), and Druid database.",
+          "Guaranteed stability in the alarm rules engine and Kafka topic publishing for integration with event management systems and SIGITM ticket opening.",
+          "Implementation of full traceability via Azure DevOps for over 200 critical scenarios, covering configurable dashboards, visualization APIs, and geographical hierarchy."
         ]
       },
       {
         "company": "Zukk Consultoria",
         "role": "Senior Test Analyst",
-        "period": "Jan 2024 — Jun 2025",
+        "period": "Jan 2024  Present",
+        "type": "turnaround",
+        "allocation": "Neoenergia",
+        "allocationPeriod": "Jul 2025  Jan 2026",
+        "highlights": [
+          "Technical leadership in the turnaround of a legacy energy management platform stalled for 5 years, restructuring the QA strategy and enabling production deployment in just 6 months.",
+          "Direct management of homologation with C-level stakeholders, ensuring 100% compliance with complex energy sector business rules and ANEEL regulatory norms.",
+          "Execution of End-to-End (E2E) tests with deep data integrity validation (Frontend  Oracle DB), mitigating risks of financial and operational inconsistencies.",
+          "Implementation of full test lifecycle traceability via Azure DevOps for over 200 critical scenarios, elevating the project's quality maturity and governance level.",
+          "Guaranteed stability in highly technically complex flows, ranging from the user interface to high-volume backend data processing."
+        ]
+      },
+      {
+        "company": "Zukk Consultoria",
+        "role": "Senior Test Analyst",
+        "period": "Jan 2024  Jun 2025",
         "type": "greenfield",
         "allocation": "Serasa Experian",
         "highlights": [
-          "Architected Greenfield test framework from zero — 100% BDD coverage for Agro Report product",
-          "AI-accelerated scripting with GitHub Copilot → 3× faster BDD scenario authoring",
-          "Robot Framework automation + RESTful API contract validation via Bruno/Postman"
+          "Leadership and construction of the Greenfield test framework for the Agro Report product, ensuring 100% BDD coverage in critical rural credit analysis and socio-environmental risk flows.",
+          "Optimization of the QA pipeline using Generative AI (GitHub Copilot), achieving a 3x increase in the speed of writing BDD scenarios for complex ESG and compliance rule validation.",
+          "Implementation of automation with Robot Framework and RESTful API contract testing via Bruno/Postman, ensuring integration integrity with data bureaus and geospatial monitoring systems.",
+          "Strategic performance in Quality Engineering, actively participating in architecture definitions and test planning for Data-Driven Decisions solutions.",
+          "Promotion of the Shift-Left culture through technical collaboration in agile ceremonies, reducing rework and accelerating the delivery cycle of highly critical features.",
+          "Homologation of data intelligence reports, validating the accuracy of sanction, embargo, and sustainability policy compliance indicators."
         ]
       },
       {
         "company": "CBYK Consultoria",
         "role": "Test Analyst / QA",
-        "period": "Sep 2023 — Feb 2024",
+        "period": "Sep 2023  Feb 2024",
         "type": "automation",
         "allocation": "TOTVS",
         "highlights": [
-          "Automated critical NFSE fiscal validation for Brazil's #1 ERP — zero compliance escapes",
-          "API test scripting + MongoDB data validation across complex fiscal transaction flows",
-          "Fiscal integrity guarantee covering 100% of invoice lifecycle scenarios"
+          "QA focused on the TMS (Transportation Management System) module of the TOTVS ERP, ensuring the integrity of freight management and transport document processes.",
+          "Critical automation of fiscal validation for NFS-e issuance, ensuring compliance with complex tax rules and achieving zero escapes in production.",
+          "Development of scripts for API testing and data validation in MongoDB, ensuring information persistence and consistency in high-volume fiscal flows.",
+          "Full homologation of the electronic document lifecycle, covering 100% of issuance, authorization, and cancellation scenarios within the logistics suite.",
+          "Validation of integrations between the fiscal back-office and operational modules, ensuring the stability of the market-leading system in Brazil."
         ]
       },
       {
         "company": "123Milhas",
         "role": "Senior Test Analyst",
-        "period": "Jun 2022 — Aug 2023",
+        "period": "Jun 2022  Aug 2023",
         "type": "automation",
         "highlights": [
-          "Single point of contact bridging 3 dev squads → 40% reduction in cross-team blockers",
-          "Full BDD scenario modeling + Zephyr Scale execution across 500+ test cases",
-          "Multi-platform regression coverage: Web + Android — exploratory + usability testing"
+          "QA technical focal point between 3 development squads, reducing integration blockers by 40% and optimizing feature hand-offs for the Hotels module.",
+          "Complete modeling of BDD (Behavior Driven Development) test suites managed via Zephyr Scale, covering over 500 critical reservation and ticketing scenarios.",
+          "Leadership of the multi-platform (Web and Android) regression testing cycle, ensuring sales funnel stability from availability search to payment checkout.",
+          "Technical validation of integrations with partner APIs and hotel inventories, ensuring price parity and coupon/miles processing integrity.",
+          "Execution of exploratory usability and performance testing focused on conversion and user journey under high-volume traffic scenarios.",
+          "Homologation of critical post-sales flows, including voucher generation, cancellations, and automatic refunds within the hospitality ecosystem."
         ]
       },
       {
         "company": "Solistica",
         "role": "Test Automation Analyst",
-        "period": "Mar 2022 — Jun 2022",
+        "period": "Mar 2022  Jun 2022",
         "type": "automation",
         "highlights": [
-          "Python + Selenium automation suite stabilizing mission-critical logistics operations"
+          "Development and maintenance of Python and Selenium automation suites to stabilize mission-critical systems in 3PL logistics operations.",
+          "Validation of complex operational flows involving Warehousing (WMS), Transportation (TMS), and value-added services for highly rigorous industries (Healthcare, Food, and Retail).",
+          "Data integrity and performance guarantee in Full Truckload (FTL), Less-Than-Truckload (LTL), and International Logistics processes.",
+          "Execution of automated tests to ensure 24/7 continuity of supply chain operations integrated with the Traxion platform ecosystem.",
+          "Implementation of regression testing routines to mitigate risks in software integrations that support millions of kilometers traveled and square meters of warehousing."
         ]
       },
       {
         "company": "Mediawork Sistemas",
         "role": "Quality Assurance",
-        "period": "Aug 2021 — Mar 2022",
+        "period": "Aug 2021  Mar 2022",
         "type": "automation",
         "highlights": [
-          "International QA for Burger King & Popeyes — multi-region POS validation",
-          "Critical Point-of-Sale system + API testing across payment and order flows"
+          "International QA in Point of Sale (POS) ecosystems for Burger King and Popeyes brands, validating critical multi-region requirements (languages, currencies, and fiscal compliance).",
+          "Validation of microservices-based platforms, ensuring the integrity of order, payment, and back-office integration flows.",
+          "End-to-End testing in Self-Service (Kiosk) and Drive-Thru solutions for Tier 1 QSR operations, focusing on high availability and performance.",
+          "Homologation of APIs for integrating POS software with various hardware peripherals and global payment gateways.",
+          "Interoperability and scalability guarantee for customized systems, ensuring the stability of large-scale retail operations."
         ]
       },
       {
         "company": "VCom Tecnologia",
         "role": "Quality Assurance",
-        "period": "Jul 2020 — Aug 2021",
+        "period": "Jul 2020  Aug 2021",
         "type": "automation",
         "highlights": [
-          "End-to-End testing (Frontend, Backend & Mobile) for credit recovery platform",
-          "Selenium automation with direct MS-SQL data manipulation and validation"
+          "End-to-End QA on the credit recovery and billing platform, validating financial calculation engines and multi-channel trigger rules.",
+          "Implementation of Selenium WebDriver automation for validating back-office systems and debt negotiation portals.",
+          "Data integrity validation via MS-SQL Server, performing direct manipulations and queries to ensure balance and history consistency in transactional databases.",
+          "Multi-platform homologation (Web, Backend, and Mobile), ensuring user journey integrity in debt settlement flows.",
+          "API integration testing for digital service channels and data enrichment via credit bureaus."
         ]
       },
       {
         "company": "APB Prodata / AutoPass",
         "role": "Mid-Level Test Analyst",
-        "period": "Oct 2016 — Mar 2020",
+        "period": "Oct 2016  Mar 2020",
         "type": "greenfield",
         "highlights": [
-          "Pioneered EMV + QRCode payment testing for São Paulo transit — 2M+ daily transactions validated",
-          "Built first Selenium WebDriver + Python automation framework from scratch",
-          "Linux Embedded environment setup + hardware integration testing"
+          "End-to-End QA in the SBE/ABT ecosystem, validating EMV (Contactless), NFC, and QR Code payments for flows of 2M+ transactions/day.",
+          "Construction of the first Selenium WebDriver + Python automation framework from scratch to validate back-office systems and sales portals.",
+          "Hardware and software integration testing for ITS and Fleet Management Systems (SGF), operating with telemetry, GPS, and onboard consoles on Embedded Linux.",
+          "Technical validation of anti-fraud Facial Biometrics systems and homologation of Automated Teller Machines (ATM) and POS devices.",
+          "Execution of stress and load tests in electronic ticketing environments to ensure financial clearing integrity."
         ]
       },
       {
         "company": "Digicon S/A",
         "role": "Junior Test Analyst",
-        "period": "Apr 2013 — Jul 2016",
+        "period": "Apr 2013  Jul 2016",
         "type": "automation",
         "highlights": [
-          "Foundation in mission-critical Access Control & Traffic systems — 99.9% uptime required",
-          "Massive API testing (SoapUI) + advanced database manipulation across Oracle & SQL Server"
+          "QA of mission-critical systems for Access Control and Traffic, ensuring 99.9% uptime in high-availability environments like airports, hospitals, and stadiums.",
+          "Technical homologation of hardware and firmware for motorized gates (dFlow, dGate) and turnstiles (Catrax), validating passage sensors and security mechanisms.",
+          "Integration testing between access controllers (MCAnet) and smart terminals, ensuring real-time triggering accuracy and communication.",
+          "Massive API testing execution (SoapUI) to integrate passenger control and revenue systems (SCAP) with the back-office.",
+          "Advanced manipulation of Oracle and SQL Server databases to validate event logs, access rules, and audit data integrity."
         ]
       }
     ]

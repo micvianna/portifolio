@@ -285,100 +285,140 @@
       {
         "company": "Zukk Consultoria",
         "role": "Analista de Pruebas Senior",
-        "period": "Ene 2024 — Actual",
+        "period": "Ene 2024  Actual",
         "type": "turnaround",
-        "allocation": "Neoenergia",
-        "allocationPeriod": "Jul 2025 — Actual",
+        "allocation": "Vivo",
+        "allocationPeriod": "Ene 2026  Actual",
         "highlights": [
-          "Desbloqueó plataforma legada de energía estancada por 5 años → lista para producción en 6 meses",
-          "Liderazgo de homologación con stakeholders C-level — 100% de conformidad con reglas de negocio",
-          "Validación End-to-End (Frontend ↔ Oracle DB) garantizando cero regresiones de integridad de datos",
-          "Trazabilidad total del ciclo de vida de pruebas vía Azure DevOps en 200+ escenarios"
+          "Liderazgo técnico en el turnaround del Sistema de Monitoreo y Diagnóstico de Fallas (UC 8.2), viabilizando la evolución de la arquitectura legada a un modelo integrado de alta disponibilidad en 6 meses.",
+          "Homologación de reglas de negocio complejas para el cálculo de autonomía de baterías (SOC/SOH) y alarmística de infraestructura (Site Down, Falla de AC), garantizando 100% de conformidad regulatoria.",
+          "Validación de flujos de ingesta de datos multiorigen (SG-Infra, Prisma, NetEco/Panda y TEMS) operados vía Airflow, Apache NiFi y procesamiento distribuido con Spark.",
+          "Ejecución de pruebas End-to-End y de integridad en arquitectura de datos multicapa, abarcando procesamiento en Hive (retención 365 días), PostgreSQL (Raw/Gold) y base de datos Druid.",
+          "Garantía de estabilidad en el motor de reglas de alarmas y en la publicación en tópicos Kafka para integración con sistemas de gestión de eventos y apertura de tickets SIGITM.",
+          "Implementación de trazabilidad total vía Azure DevOps para más de 200 escenarios críticos, cubriendo dashboards configurables, APIs de visualización y jerarquía geográfica."
         ]
       },
       {
         "company": "Zukk Consultoria",
         "role": "Analista de Pruebas Senior",
-        "period": "Ene 2024 — Jun 2025",
+        "period": "Ene 2024  Actual",
+        "type": "turnaround",
+        "allocation": "Neoenergia",
+        "allocationPeriod": "Jul 2025  Ene 2026",
+        "highlights": [
+          "Liderazgo técnico en el turnaround de una plataforma legada de gestión de energía estancada por 5 años, reestructurando la estrategia de QA y permitiendo su pase a producción en solo 6 meses.",
+          "Gestión directa de la homologación con stakeholders C-level, garantizando 100% de conformidad con reglas de negocio complejas del sector eléctrico y normas regulatorias de ANEEL.",
+          "Ejecución de pruebas End-to-End (E2E) con validación profunda de integridad de datos (Frontend  Oracle DB), mitigando riesgos de inconsistencias financieras y operativas.",
+          "Implementación de trazabilidad total del ciclo de vida de pruebas vía Azure DevOps para más de 200 escenarios críticos, elevando el nivel de madurez y gobernanza de calidad del proyecto.",
+          "Garantía de estabilidad en flujos de alta complejidad técnica, abarcando desde la interfaz de usuario hasta el procesamiento de grandes volúmenes de datos en el back-end."
+        ]
+      },
+      {
+        "company": "Zukk Consultoria",
+        "role": "Analista de Pruebas Senior",
+        "period": "Ene 2024  Jun 2025",
         "type": "greenfield",
         "allocation": "Serasa Experian",
         "highlights": [
-          "Framework de pruebas Greenfield desde cero — 100% de cobertura BDD para producto Agro Report",
-          "Scripting acelerado por IA vía GitHub Copilot → 3× más rápido en creación de escenarios BDD",
-          "Automatización con Robot Framework + validación de contratos de API RESTful vía Bruno/Postman"
+          "Liderazgo y construcción del framework de pruebas Greenfield para el producto Agro Report, garantizando 100% de cobertura BDD en flujos críticos de análisis de crédito rural y riesgo socioambiental.",
+          "Optimización del pipeline de QA utilizando IA Generativa (GitHub Copilot), logrando un aumento de 3x en la velocidad de escritura de escenarios BDD para validación de reglas ESG y compliance.",
+          "Implementación de automatización con Robot Framework y pruebas de contrato de API RESTful vía Bruno/Postman, asegurando la integridad de la integración con burós de datos y sistemas de monitoreo geoespacial.",
+          "Actuación estratégica en Quality Engineering, participando activamente en definiciones de arquitectura y planificación de pruebas para soluciones de Data-Driven Decisions.",
+          "Promoción de la cultura Shift-Left mediante colaboración técnica en ceremonias ágiles, reduciendo el retrabajo y acelerando el ciclo de entrega de funcionalidades críticas.",
+          "Homologación de informes de inteligencia de datos, validando la precisión de indicadores de sanciones, embargos y conformidad con políticas de sostenibilidad."
         ]
       },
       {
         "company": "CBYK Consultoria",
         "role": "Analista de Pruebas / QA",
-        "period": "Sep 2023 — Feb 2024",
+        "period": "Sep 2023  Feb 2024",
         "type": "automation",
         "allocation": "TOTVS",
         "highlights": [
-          "Automatización crítica de validación fiscal NFSE para el ERP #1 de Brasil — cero escapes de conformidad",
-          "Scripts de automatización de API + validación de datos MongoDB en flujos fiscales complejos",
-          "Garantía de integridad fiscal cubriendo 100% de escenarios del ciclo de vida de facturas"
+          "QA centrado en el módulo TMS (Transportation Management System) del ERP TOTVS, garantizando la integridad de los procesos de gestión de fletes y documentos de transporte.",
+          "Automatización crítica de validación fiscal para emisión de NFS-e, asegurando conformidad con reglas fiscales complejas y logrando cero escapes en producción.",
+          "Desarrollo de scripts para pruebas de API y validación de datos en MongoDB, garantizando la persistencia y coherencia de información en flujos fiscales de alta volumetría.",
+          "Homologación integral del ciclo de vida de documentos electrónicos, cubriendo 100% de los escenarios de emisión, autorización y cancelación en la suite logística.",
+          "Validación de integraciones entre el back-office fiscal y módulos operativos, asegurando la estabilidad del sistema líder en el mercado brasileño."
         ]
       },
       {
         "company": "123Milhas",
         "role": "Analista de Pruebas Senior",
-        "period": "Jun 2022 — Ago 2023",
+        "period": "Jun 2022  Ago 2023",
         "type": "automation",
         "highlights": [
-          "Punto focal único entre 3 squads de dev → reducción de 40% en bloqueos entre equipos",
-          "Modelado completo de BDD + ejecución vía Zephyr Scale en 500+ casos de prueba",
-          "Cobertura de regresión multiplataforma: Web + Android — pruebas exploratorias + usabilidad"
+          "Punto focal técnico de QA entre 3 squads de desarrollo, reduciendo en un 40% los bloqueos de integración y optimizando la entrega de funcionalidades del módulo de Hoteles.",
+          "Modelado completo de suites de pruebas BDD gestionadas vía Zephyr Scale, cubriendo más de 500 escenarios críticos de reservas y emisión.",
+          "Liderazgo del ciclo de pruebas de regresión multiplataforma (Web y Android), garantizando la estabilidad del embudo de ventas desde la búsqueda de disponibilidad hasta el pago.",
+          "Validación técnica de integraciones con APIs de socios e inventarios hoteleros, asegurando paridad de precios y la integridad del procesamiento de cupones y millas.",
+          "Ejecución de pruebas exploratorias de usabilidad y rendimiento centradas en la conversión y el recorrido del usuario en escenarios de alto nivel de tráfico.",
+          "Homologación de flujos críticos de posventa, incluyendo emisión de vouchers, cancelaciones y reembolsos automáticos en el ecosistema de hospitalidad."
         ]
       },
       {
         "company": "Solistica",
         "role": "Analista de Automatización de Pruebas",
-        "period": "Mar 2022 — Jun 2022",
+        "period": "Mar 2022  Jun 2022",
         "type": "automation",
         "highlights": [
-          "Suite de automatización Python + Selenium estabilizando operaciones logísticas de misión crítica"
+          "Desarrollo y mantenimiento de suites de automatización con Python y Selenium para estabilización de sistemas de misión crítica en operaciones logísticas 3PL.",
+          "Validación de flujos operativos complejos involucrando Almacenamiento (WMS), Transporte (TMS) y servicios de valor agregado para industrias de alto rigor (Salud, Alimentos y Retail).",
+          "Garantía de integridad de datos y rendimiento en procesos de Carga Completa (FTL), Carga Consolidada (LTL) y Logística Internacional.",
+          "Ejecución de pruebas automatizadas para asegurar la continuidad 24/7 de operaciones de cadena de suministro integradas a la plataforma Traxion.",
+          "Implementación de rutinas de pruebas de regresión para mitigar riesgos en integraciones de software que soportan millones de kilómetros recorridos y m² de almacenamiento."
         ]
       },
       {
         "company": "Mediawork Sistemas",
         "role": "Quality Assurance",
-        "period": "Ago 2021 — Mar 2022",
+        "period": "Ago 2021  Mar 2022",
         "type": "automation",
         "highlights": [
-          "QA internacional para Burger King & Popeyes — validación de PDV multi-región",
-          "Pruebas de sistemas críticos de PDV + APIs en flujos de pago y pedidos"
+          "QA internacional en ecosistemas POS (Point of Sale) para marcas Burger King y Popeyes, validando requisitos críticos multirregión (idiomas, monedas y cumplimiento fiscal).",
+          "Validación de plataformas basadas en microservicios, asegurando la integridad de flujos de pedidos, pagos e integración con sistemas back-office.",
+          "Pruebas End-to-End en soluciones de Autoservicio (Kiosco) y Drive-Thru para operaciones QSR Tier 1, con foco en alta disponibilidad y rendimiento.",
+          "Homologación de APIs para integración de software POS con diversos periféricos de hardware y pasarelas de pago globales.",
+          "Garantía de interoperabilidad y escalabilidad de sistemas personalizados, asegurando la estabilidad de operaciones minoristas a gran escala."
         ]
       },
       {
         "company": "VCom Tecnologia",
         "role": "Quality Assurance",
-        "period": "Jul 2020 — Ago 2021",
+        "period": "Jul 2020  Ago 2021",
         "type": "automation",
         "highlights": [
-          "Pruebas End-to-End (Frontend, Backend y Mobile) para plataforma de recuperación de crédito",
-          "Automatización Selenium + manipulación y validación directa de datos en MS-SQL"
+          "QA End-to-End en plataforma de recuperación de crédito y facturación, validando motores de cálculo financiero y reglas de activación multicanal.",
+          "Implementación de automatización Selenium WebDriver para validación de sistemas back-office y portales de negociación de deuda.",
+          "Validación de integridad de datos vía MS-SQL Server, realizando manipulaciones y consultas directas para garantizar consistencia de saldos e históricos en bases transaccionales.",
+          "Homologación multiplataforma (Web, Backend y Mobile), asegurando la integridad del recorrido del usuario en flujos de liquidación de deuda.",
+          "Pruebas de integración de APIs para canales de atención digital y enriquecimiento de datos vía burós de crédito."
         ]
       },
       {
         "company": "APB Prodata / AutoPass",
-        "role": "Analista de Pruebas",
-        "period": "Oct 2016 — Mar 2020",
+        "role": "Analista de Pruebas Semi Senior",
+        "period": "Oct 2016  Mar 2020",
         "type": "greenfield",
         "highlights": [
-          "Pruebas pioneras de pago EMV + QRCode en el transporte de SP — 2M+ transacciones/día validadas",
-          "Construcción del primer framework de automatización Selenium WebDriver + Python desde cero",
-          "Setup de entorno Linux Embebido + pruebas de integración de hardware"
+          "QA End-to-End en el ecosistema SBE/ABT, validando pagos EMV (Contactless), NFC y Código QR para flujos de más de 2M de transacciones por día.",
+          "Construcción del primer framework de automatización Selenium WebDriver + Python desde cero para validar sistemas back-office y portales de venta.",
+          "Pruebas de integración de hardware y software para sistemas ITS y Gestión de Flotas (SGF), operando con telemetría, GPS y consolas a bordo en Linux Embebido.",
+          "Validación técnica de sistemas antifraude de Biometría Facial y homologación de Cajeros Automáticos (ATM) y dispositivos POS.",
+          "Ejecución de pruebas de estrés y carga en entornos de peaje electrónico para asegurar la integridad de la compensación financiera."
         ]
       },
       {
         "company": "Digicon S/A",
         "role": "Analista de Pruebas Junior",
-        "period": "Abr 2013 — Jul 2016",
+        "period": "Abr 2013  Jul 2016",
         "type": "automation",
         "highlights": [
-          "Base en sistemas de misión crítica para Control de Acceso y Tráfico — 99.9% de uptime requerido",
-          "Pruebas masivas de API (SoapUI) + manipulación avanzada de base de datos en Oracle & SQL Server"
+          "QA de sistemas de misión crítica para Control de Acceso y Tráfico, garantizando 99.9% de uptime en entornos de alta disponibilidad como aeropuertos, hospitales y estadios.",
+          "Homologación técnica de hardware y firmware para puertas motorizadas (dFlow, dGate) y torniquetes (Catrax), validando sensores de paso y mecanismos de seguridad.",
+          "Pruebas de integración entre controladores de acceso (MCAnet) y terminales inteligentes, asegurando la precisión de activación y comunicación en tiempo real.",
+          "Ejecución masiva de pruebas de API (SoapUI) para integración de sistemas de control y recaudación de pasajeros (SCAP) con el back-office.",
+          "Manipulación avanzada de bases de datos Oracle y SQL Server para validar logs de eventos, reglas de acceso e integridad de datos de auditoría."
         ]
       }
     ]
