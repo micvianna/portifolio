@@ -62,14 +62,14 @@
     "description": "Quando não estou arquitetando estratégias de teste ou criando prompts para IA, você me encontra explorando novas tecnologias, compartilhando conhecimento com a comunidade de QA e empurrando constantemente os limites do que é possível em qualidade de software.",
     "quote": "Qualidade nunca é um acidente. É sempre o resultado de um esforço inteligente.",
     "interestsLabel": "Fora do terminal",
-    "interest0Title": "Música & Guitarra",
-    "interest0Text": "[Placeholder — sua paixão por música aqui]",
+    "interest0Title": "Louvor & Consagração",
+    "interest0Text": "Busca constante ao Senhor, lendo a Sua Palavra e louvando a Ele.",
     "interest1Title": "Livros & Aprendizado",
-    "interest1Text": "[Placeholder — livros, podcasts ou hábitos de aprendizado aqui]",
-    "interest2Title": "Viagens & Cultura",
-    "interest2Text": "[Placeholder — experiências de viagem ou interesses culturais aqui]",
-    "interest3Title": "Games & Estratégia",
-    "interest3Text": "[Placeholder — jogos ou interesses estratégicos aqui]"
+    "interest1Text": "Leitura da Bíblia, A Psicologia Financeira, As Ferramentas Intelectuais dos Gênios, Código Limpo. A leitura é sempre uma fonte enriquecedora de conhecimento.",
+    "interest2Title": "Lugares & Cultura",
+    "interest2Text": "Amo o nosso país, tive a oportunidade de viajar por alguns estados Brasileiros e gosto muito deles: Minas Gerais, Rio Grande do Sul, Rio Grande do Norte, Goiás, Bahia e Espírito Santo. Quero conhecer ainda mais!",
+    "interest3Title": "Games",
+    "interest3Text": "Jogos nostálgicos: Street Fighter, Mortal Kombat (I, II, III e Trilogy), Super Mario World."
   },
   "builtWith": {
     "sectionTag": "Engenharia de Prompts",

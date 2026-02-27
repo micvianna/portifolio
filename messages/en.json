@@ -62,14 +62,14 @@
     "description": "When I'm not architecting test strategies or crafting prompts for AI, you'll find me exploring new technologies, sharing knowledge with the QA community, and constantly pushing the boundaries of what's possible in software quality.",
     "quote": "Quality is never an accident. It's always the result of intelligent effort.",
     "interestsLabel": "Outside the terminal",
-    "interest0Title": "Music & Guitar",
-    "interest0Text": "[Placeholder — your passion for music here]",
+    "interest0Title": "Worship & Consecration",
+    "interest0Text": "Constant pursuit of the Lord, reading His Word and praising Him.",
     "interest1Title": "Books & Learning",
-    "interest1Text": "[Placeholder — books, podcasts, or learning habits here]",
-    "interest2Title": "Travel & Culture",
-    "interest2Text": "[Placeholder — travel experiences or cultural interests here]",
-    "interest3Title": "Gaming & Strategy",
-    "interest3Text": "[Placeholder — gaming or strategy interests here]"
+    "interest1Text": "Bible reading, The Psychology of Money, The Intellectual Tool Kit of Geniuses, Clean Code. Reading is always an enriching source of knowledge.",
+    "interest2Title": "Places & Culture",
+    "interest2Text": "I love our country, I had the opportunity to travel through some Brazilian states and I like them very much: Minas Gerais, Rio Grande do Sul, Rio Grande do Norte, Goiás, Bahia, and Espírito Santo. I want to know even more!",
+    "interest3Title": "Games",
+    "interest3Text": "Nostalgic games: Street Fighter, Mortal Kombat (I, II, III, and Trilogy), Super Mario World."
   },
   "builtWith": {
     "sectionTag": "Prompt Engineering",

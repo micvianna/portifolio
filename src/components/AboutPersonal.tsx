@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 // Interests outside tech — placeholders ready for injection
 const interests = [
     {
-        emoji: '🎸',
+        emoji: '🙏',
         titleKey: 'interest0Title',
         textKey: 'interest0Text',
     },
@@ -16,7 +16,7 @@ const interests = [
         textKey: 'interest1Text',
     },
     {
-        emoji: '🌍',
+        emoji: '🗺️',
         titleKey: 'interest2Title',
         textKey: 'interest2Text',
     },
