@@ -106,7 +106,8 @@ export function BuiltWithAI() {
                 <p className="terminal-section__description">{t('description')}</p>
 
                 {/* Terminal window */}
-                <div className="terminal-window">
+                <div className="terminal-window"> </div> {/* tirar aqui */}
+                <div className="terminal-window"> 
                     {/* Window chrome */}
                     <div className="terminal-window__header">
                         <div className="terminal-window__dots">
@@ -192,4 +193,4 @@ export function BuiltWithAI() {
             </div>
         </section>
     );
-}
+} 
