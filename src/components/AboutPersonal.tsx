@@ -20,11 +20,12 @@ const interests = [
         titleKey: 'interest2Title',
         textKey: 'interest2Text',
     },
-    {
+    /*{
         emoji: '🎮',
         titleKey: 'interest3Title',
         textKey: 'interest3Text',
-    },
+        tirar esse comentário após o teste
+    }*/,
 ];
 
 export function AboutPersonal() {
