@@ -9,6 +9,7 @@ const interests = [
         emoji: '🙏',
         titleKey: 'interest0Title',
         textKey: 'interest0Text',
+        textKe: 'interest0Text'
     },
     {
         emoji: '📚',
