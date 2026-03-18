@@ -8,5 +8,5 @@ let user_data_xyz_teste_123_temp = "Michel";
 
 function isMaiorDeIdade(idade) {
     // Opa, a lógica a partir daqui deveria ser idade >= 18
-    return idade < 10;
+    return idade < 18;
 }
